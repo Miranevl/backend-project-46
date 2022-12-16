@@ -4,6 +4,9 @@
   "type": "module",
   "description": "[![Actions Status](https://github.com/Miranevl/backend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Miranevl/backend-project-46/actions)",
   "main": "index.js",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +22,5 @@
   "homepage": "https://github.com/Miranevl/backend-project-46#readme",
   "dependencies": {
     "commander": "^9.4.1"
-  },
-  "bin": {
-    "gendiff": "bin/gendiff.js"
   }
 }
